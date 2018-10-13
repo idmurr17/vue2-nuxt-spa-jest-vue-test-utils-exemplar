@@ -14,6 +14,6 @@ test('renders a div', t => {
       message: msg
     }
   });
-
+  console.log(wrapper.text())
   t.true(wrapper.text().includes(msg))
 })
