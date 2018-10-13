@@ -1,2 +1,22 @@
-# vue2-nuxt-exemplar
-Base project for Webapp built with Vue 2, Nuxt, &amp; Jest (Ready to run Unit tests, snapshot tests, and e2e tests)
+# vue2-exemplar
+
+> My exceptional Nuxt.js project
+
+## Build Setup
+
+``` bash
+# install dependencies
+$ npm install
+
+# serve with hot reload at localhost:3000
+$ npm run dev
+
+# build for production and launch server
+$ npm run build
+$ npm start
+
+# generate static project
+$ npm run generate
+```
+
+For detailed explanation on how things work, checkout [Nuxt.js docs](https://nuxtjs.org).
