@@ -22,13 +22,12 @@
     "@vue/test-utils": "^1.0.0-beta.25",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
-    "browser-env": "^3.2.5",
+    "babel-preset-vue-app": "^2.0.0",
     "jest": "^23.6.0",
     "jsdom": "^12.2.0",
     "nodemon": "^1.11.0",
     "stylus": "^0.54.5",
     "stylus-loader": "^3.0.2",
-    "vue-app": "^0.1.1",
     "vue-jest": "^2.6.0"
   },
   "jest": {
