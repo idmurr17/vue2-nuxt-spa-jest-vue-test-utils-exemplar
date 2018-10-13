@@ -1,19 +1,16 @@
-import test from 'ava'
-
 import { shallowMount } from '@vue/test-utils'
 import HelloWorld from '../HelloWorld.vue'
 
-test('sanity test', t => {
-  t.pass()
+test('sanity test', () => {
+  expect(true)
 })
 
-test('renders a div', t => {
+test('renders a div', () => {
   const msg = 'Hello, World!'
   const wrapper = shallowMount(HelloWorld, {
     propsData: {
       message: msg
     }
   });
-  console.log(wrapper.text())
-  t.true(wrapper.text().includes(msg))
+  expect(wrapper.text()).toContain(msg);
 })
